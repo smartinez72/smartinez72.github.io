@@ -1,0 +1,47 @@
+<!DOCTYPE HTML> <html> 
+<head> <title>Chart</title> </head>
+<body>
+
+
+<table border="2px" style="width:100%">
+  <th colspan="4;">Class: Everytime a class takes place, the subject, time, teacher, and discussion topic are encoded. This makes it possible to recreate the wole class period.</th>
+   <tr>
+    <th>Component</th>   
+    <th>Type</th>
+     <th>Number of Bits/Range</th> 
+    <th>Desription/Comments</th>
+   <tr>
+        <th>Room Number</th>
+        <td>ASCII</td>
+        <td>80 bits (0-10 chars)</td>
+        <td>This describes the number or name of classroom the class takes place.</td>
+   </tr>
+   </tr>
+        <th>Subject</th>
+        <td>ASCII</td>
+        <td>160 bits
+        (0-20 chars)</td>
+        <td>Name of Class subject. 20 characters is enough.</td>
+   <tr>
+       <th>Time</th>
+       <td>ASCII</td>
+       <td>72 bits (9 chars)</td>
+       <td>Describes the time class starts(hh:mm a.m./p.m.). ASCII used to add colon(:) to separate hours and minutes and to add A.M or P.M</td>
+      
+   </tr>
+   <tr>
+       <th>Teacher</th>
+       <td>ASCII</td>
+       <td>120 bits (0-15 chars)</td>
+       <td>Describes Name of Teacher. 32 Chars should be enogh</td>
+   </tr>
+   <tr>
+       <th>Discussion Topic</th>
+       <td>ASCII</td>
+       <td>4000 bits (0-500 chars)</td>
+       <td>500 chars should be enough to give a briefly summarize class discussion</td>
+   </tr>
+ 
+</table> 
+</body>
+</html>
